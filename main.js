@@ -39,6 +39,6 @@ client.on("message", function(message) {
             return;
         }
         message.reply("\n```css\n" + output + "```");
-});
-}
+    });
+  }
 });
