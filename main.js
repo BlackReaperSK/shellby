@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const { exec } = require("child_process");
 
 // RUN
-client.login("YOUR_TOKEN");
+client.login("ODU2MzI2MjMzMzE4MjI3OTY4.YM_Z8w.cwTf-d2X7tk8huzK0tiX4Sbtv40");
 
 // Seu prefixo 
 const prefixo = "$";
